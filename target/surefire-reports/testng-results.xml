@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1" duration-ms="8177" started-at="2020-06-27T14:05:23Z" finished-at="2020-06-27T14:05:31Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8177" started-at="2020-06-27T14:05:23Z" finished-at="2020-06-27T14:05:31Z">
+      <class name="Test1">
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:Test1@5ebec15]" name="doLogin" duration-ms="8158" started-at="2020-06-27T14:05:23Z" finished-at="2020-06-27T14:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test1@5ebec15]" name="closeBrowser" is-config="true" duration-ms="1107" started-at="2020-06-27T14:05:31Z" finished-at="2020-06-27T14:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Test1 -->
+</testng-results>
