@@ -35,8 +35,9 @@ public class Test1 {
 		driver.get("http://www.way2automation.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
-		System.out.println(driver.getTitle().length());
+		System.out.println(driver.getTitle().length());		
         Thread.sleep(2000); 
+        System.out.println("After the thread sleep!");
 
 		
 
