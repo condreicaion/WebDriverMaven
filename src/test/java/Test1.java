@@ -38,6 +38,7 @@ public class Test1 {
 		System.out.println(driver.getTitle().length());		
         Thread.sleep(2000); 
         System.out.println("After the thread sleep!");
+        System.out.println("Hello uloha branch second!");
 
 		
 
